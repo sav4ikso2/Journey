@@ -1,0 +1,138 @@
+.main{
+	background-image: url('images/image 25.jpg');
+}
+.main__inner{
+	display: flex;
+	height: 100vh;
+	align-content: center;
+    justify-content: center;
+    align-items: center;
+	gap: 100px;
+}
+.slide{
+	width: 100%;
+	height: 100vh;
+	background-size:cover;
+	background-position:center;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 39px;
+	color: #E8E5E2;
+
+}
+.niga{
+	background-image: url('images/image 1.jpg');
+}
+.slide__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 100%;
+}
+.slide__title {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 77px;
+	color: #FF0000;
+}
+.btn{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 77px;
+	text-align: center;
+	color: #000000;
+	background: #D81E36;
+	padding: 18px 106px 19px 106px
+	display:block;
+	text-decoration:none;
+}
+
+.main__title{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 77px;
+	color: #D81E36;
+}
+.main__content{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 39px;
+	color: #E8E5E2;
+}
+.first-banner{
+	width: 100%;
+	height: 100vh;
+}
+.first-banner__inner h1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 77px;
+	color: #FF0000;
+	text-align: right;
+}
+.slide__inner p{
+	margin-bottom: 60px;
+}
+.grid{
+	display: grid;
+	grid-template-columns: repeat(5, 100px);
+	grid-template-rows: repeat(10, 100px);
+		grid-template-areas:
+		"a a a e e"
+		"a a a e e"
+		"c c c e e"
+		"c c c e e"
+		"b b b b b"
+		"b b b b b"
+		"d d d d d"
+		"d d d d d";
+}
+.grid_a {
+	grid-area: a;
+	background: url('images/vtv 2.jpg');
+}
+.grid_b {
+	grid-area: b;
+	background: url('images/ybuf.jpg');
+}
+.grid_c {
+	grid-area: c;
+	background: url('images/vtvs 100.jpg');
+}
+.grid_e {		
+	grid-area: e;
+	background: url('images/vtv.jpg');
+}
+.grid_d {		
+	grid-area: d;
+	background: url('images/vtv 3.jpg');
+}
+.nice {
+	position: absolute;
+	width: 146px;
+	height: 85px;
+	left: 142px;
+top: 33px;
+}
+.usa{
+	background-image: url('images/Rectangle 2.jpg');
+}
+.italy{
+	background-image: url('images/image 15.jpg');
+}
+.usa {
+	background-image: url('images/image 2.jpg');
+}
