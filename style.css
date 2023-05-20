@@ -145,4 +145,7 @@ top: 33px;
      .main__inner{
     flex-direction: column;
 }
+.main{
+	height: 1021px;
+}
 }
