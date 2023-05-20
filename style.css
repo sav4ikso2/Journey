@@ -142,4 +142,7 @@ top: 33px;
 }
 @media screen and (max-width: 380px) {
     div {width: 980px;}
+     .main__inner{
+    flex-direction: column;
+}
 }
