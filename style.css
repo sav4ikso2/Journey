@@ -140,7 +140,7 @@ top: 33px;
 .itali{
 	background-image: url('images/image 15.jpg');
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
     div {width: 980px;}
      .main__inner{
     flex-direction: column;
