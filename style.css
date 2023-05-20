@@ -140,3 +140,6 @@ top: 33px;
 .itali{
 	background-image: url('images/image 15.jpg');
 }
+@media screen and (max-width: 380px) {
+    div {width: 980px;}
+}
