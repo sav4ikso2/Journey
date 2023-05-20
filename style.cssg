@@ -23,7 +23,7 @@
 
 }
 .niga{
-	background-image: url('images/image NIGA.jpg');
+	background-image: url('images/NIGA.jpg');
 }
 .slide__inner {
     display: flex;
