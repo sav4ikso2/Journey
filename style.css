@@ -24,6 +24,7 @@
 }
 .niga{
 	background-image: url('images/NIGA.jpg');
+	background-size: cover;
 }
 .slide__inner {
     display: flex;
